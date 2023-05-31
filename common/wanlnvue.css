@@ -1,0 +1,960 @@
+/* #ifndef APP-PLUS */
+@font-face {
+	font-family: "iconfont";
+	src: url('~@/common/iconfont.ttf') format('truetype');
+}
+/* #endif*/
+
+.icon {
+	/* #ifndef APP-PLUS */
+	font-family: "iconfont";
+	/* #endif*/
+	font-family: iconfont;
+	color: #ffffff;
+}
+
+/* Tag标签 */
+.tag {
+	height: 32rpx;
+	/* #ifndef APP-PLUS */
+	display: inline-flex;
+	/* #endif */
+	align-items: center;
+	flex-direction: row;
+	padding: 0 8rpx;
+	background-image: linear-gradient(-90deg, #ff4950, #ff8123);
+	border-radius: 10rpx;
+	margin-right: 10rpx;
+}
+
+.tag-icon {
+	font-size: 20rpx;
+	color: #ffffff;
+	margin-right: 6rpx;
+}
+
+.tag-text {
+	font-size: 20rpx;
+	color: #ffffff;
+}
+
+
+/* 文本大小 */
+.text-xs {
+	font-size: 22rpx;
+}
+
+.text-min {
+	font-size: 24rpx;
+}
+
+.text-sm {
+	font-size: 26rpx;
+}
+
+.text-df {
+	font-size: 28rpx;
+}
+
+.text-30 {
+	font-size: 30rpx;
+}
+
+.text-lg {
+	font-size: 32rpx;
+}
+
+.text-34 {
+	font-size: 34rpx;
+}
+
+
+.text-xl {
+	font-size: 36rpx;
+}
+
+.text-40 {
+	font-size: 40rpx;
+}
+
+.text-xxl {
+	font-size: 44rpx;
+}
+
+.text-xxxl {
+	font-size: 56rpx;
+}
+
+.text-xxxxl {
+	font-size: 68rpx;
+}
+
+.text-sl {
+	font-size: 80rpx;
+}
+
+.text-xsl {
+	font-size: 120rpx;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-content {
+	line-height: 1.6;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-lines-mp {
+	lines: 2;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	/* #ifndef APP-PLUS */
+	white-space: normal;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	/* #endif*/
+}
+
+
+.text-lines-2 {
+	lines: 2;
+	text-overflow: ellipsis;
+}
+
+.text-mp-2 {
+	overflow: hidden;
+	/* #ifndef APP-PLUS */
+	white-space: normal;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	/* #endif*/
+}
+
+.text-lines-3 {
+	lines: 3;
+	text-overflow: ellipsis;
+}
+
+/* 字体粗细 */
+.text-bold1 {
+	font-weight: 100;
+}
+
+.text-bold2 {
+	font-weight: 200;
+}
+
+.text-bold4 {
+	font-weight: 400;
+}
+
+.text-bold5 {
+	font-weight: 500;
+}
+
+.text-bold6 {
+	font-weight: 600;
+}
+
+.text-bold7 {
+	font-weight: 700;
+}
+
+.text-bold8 {
+	font-weight: 800;
+}
+
+
+.round {
+	border-radius: 5000rpx;
+}
+
+.radius {
+	border-radius: 6rpx;
+}
+
+.radius-bock {
+	border-radius: 18rpx;
+}
+
+.radius-circular {
+	border-radius: 2000rpx;
+
+}
+
+
+/* 字体颜色 */
+.text-white {
+	color: #ffffff;
+}
+
+.text-white-5 {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.text-white-6 {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.text-white-7 {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.text-white-8 {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.text-white-9 {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+
+.text-black {
+	color: #000000;
+}
+
+.text-black-1 {
+	color: rgba(0, 0, 0, 0.1);
+}
+
+.text-black-2 {
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.text-black-3 {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.text-black-4 {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.text-black-5 {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.text-black-6 {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.text-black-7 {
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.text-black-8 {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.text-black-9 {
+	color: rgba(0, 0, 0, 0.9);
+}
+
+
+.text-gray {
+	color: #888888;
+}
+
+.text-gray-light {
+	color: #999999;
+}
+
+.text-gray-dark {
+	color: #666666;
+}
+
+
+.text-red {
+	color: #ff243a;
+}
+
+.text-orange {
+	color: #fe6600;
+}
+
+.text-yellow {
+	color: #FF6A0C;
+}
+
+.text-olive {
+	color: #8dc63f;
+}
+
+.text-green {
+	color: #39b54a;
+}
+
+.text-cyan {
+	color: #1cbbb4;
+}
+
+.text-blue {
+	color: #0081ff;
+}
+
+.text-purple {
+	color: #6739b6;
+}
+
+.text-mauve {
+	color: #9c26b0;
+}
+
+.text-pink {
+	color: #F840B1;
+}
+
+.text-brown {
+	color: #a5673f;
+}
+
+
+
+
+
+
+/* 背景颜色 */
+.wanl-bg-redorange {
+	background: #ff3d33;
+	background-image: linear-gradient(90deg, #0070C0, #0070C0);
+	color: white;
+}
+
+.wanl-bg-redorange-light {
+	background-image: linear-gradient(90deg, #ffc0ae, #ffa7b0);
+	color: white;
+}
+
+/* 橙色 */
+.wanl-bg-orange {
+	color: white;
+	background-image: linear-gradient(-90deg, #ff4950, #ff8123);
+}
+
+/* 粉色 */
+.wanl-bg-pink {
+	color: white;
+	background-image: linear-gradient(-90deg, #fa3b26, #ff4d8a);
+}
+
+/* 蓝色 */
+.wanl-bg-blue {
+	color: white;
+	background-image: linear-gradient(-90deg, #2676fa, #23d7ff);
+}
+
+/* 灰色 */
+.wanl-bg-grey{
+	color: white;
+	background-image: linear-gradient(-90deg, #8799a3, #8799a3);
+}
+
+.bg-nav {
+	background-color: #f9f9f9;
+}
+
+.bg-white {
+	background-color: #ffffff;
+	color: #333333;
+}
+
+.bg-black {
+	background-color: #333333;
+	color: #ffffff;
+}
+
+.bg-gray {
+	background-color: #f0f0f0;
+	color: #333333;
+}
+
+.bg-gradual-yellow {
+	background-image: linear-gradient(to left, #ff9700, #ffca00);
+	color: white;
+}
+
+.bg-red {
+	background-color: red;
+	color: #ffffff;
+}
+
+.bg-orange {
+	background-color: #fe6600;
+	color: #ffffff;
+}
+
+.bg-yellow {
+	background-color: #fbbd08;
+	color: #333333;
+}
+
+.bg-olive {
+	background-color: #8dc63f;
+	color: #ffffff;
+}
+
+.bg-green {
+	background-color: #39b54a;
+	color: #ffffff;
+}
+
+.bg-cyan {
+	background-color: #1cbbb4;
+	color: #ffffff;
+}
+
+.bg-blue {
+	background-color: #0081ff;
+	color: #ffffff;
+}
+
+.bg-purple {
+	background-color: #6739b6;
+	color: #ffffff;
+}
+
+.bg-mauve {
+	background-color: #9c26b0;
+	color: #ffffff;
+}
+
+.bg-pink {
+	background-color: #e03997;
+	color: #ffffff;
+}
+
+.bg-brown {
+	background-color: #a5673f;
+	color: #ffffff;
+}
+
+
+
+
+
+/*  -- 内外边距 -- */
+.margin-xs {
+	margin: 10rpx;
+}
+
+.margin-sm {
+	margin: 20rpx;
+}
+
+.margin {
+	margin: 30rpx;
+}
+
+.margin-lg {
+	margin: 40rpx;
+}
+
+.margin-xl {
+	margin: 50rpx;
+}
+
+.margin-top-xs {
+	margin-top: 10rpx;
+}
+
+.margin-top-s {
+	margin-top: 6rpx;
+}
+
+.margin-top-sm {
+	margin-top: 20rpx;
+}
+
+.margin-top {
+	margin-top: 30rpx;
+}
+
+.margin-top-lg {
+	margin-top: 40rpx;
+}
+
+.margin-top-xl {
+	margin-top: 50rpx;
+}
+
+.margin-right-s {
+	margin-right: 4rpx;
+}
+
+.margin-right-xs {
+	margin-right: 10rpx;
+}
+
+.margin-right-sm {
+	margin-right: 20rpx;
+}
+
+.margin-right {
+	margin-right: 30rpx;
+}
+
+.margin-right-lg {
+	margin-right: 40rpx;
+}
+
+.margin-right-xl {
+	margin-right: 50rpx;
+}
+
+
+.margin-bottom-s {
+	margin-bottom: 6rpx;
+}
+
+.margin-bottom-xs {
+	margin-bottom: 10rpx;
+}
+
+.margin-bottom-sm {
+	margin-bottom: 20rpx;
+}
+
+.margin-bottom {
+	margin-bottom: 30rpx;
+}
+
+.margin-bottom-lg {
+	margin-bottom: 40rpx;
+}
+
+.margin-bottom-xl {
+	margin-bottom: 50rpx;
+}
+
+.margin-left-s {
+	margin-left: 4rpx;
+}
+
+.margin-left-xs {
+	margin-left: 10rpx;
+}
+
+.margin-left-sm {
+	margin-left: 20rpx;
+}
+
+.margin-left {
+	margin-left: 30rpx;
+}
+
+.margin-left-lg {
+	margin-left: 40rpx;
+}
+
+.margin-left-xl {
+	margin-left: 50rpx;
+}
+
+.margin-lr-xs {
+	margin-left: 10rpx;
+	margin-right: 10rpx;
+}
+
+.margin-lr-sm {
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+}
+
+.margin-lr {
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+}
+
+.margin-lr-lg {
+	margin-left: 40rpx;
+	margin-right: 40rpx;
+}
+
+.margin-lr-xl {
+	margin-left: 50rpx;
+	margin-right: 50rpx;
+}
+
+.margin-tb-s {
+	margin-top: 4rpx;
+	margin-bottom: 4rpx;
+}
+
+.margin-tb-xs {
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+}
+
+.margin-tb-sm {
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+
+.margin-tb {
+	margin-top: 30rpx;
+	margin-bottom: 30rpx;
+}
+
+.margin-tb-lg {
+	margin-top: 40rpx;
+	margin-bottom: 40rpx;
+}
+
+.margin-tb-xl {
+	margin-top: 50rpx;
+	margin-bottom: 50rpx;
+}
+
+
+.margin-bj {
+	margin: 25rpx;
+}
+
+.margin-top-bj {
+	margin-top: 25rpx;
+}
+
+.margin-right-bj {
+	margin-right: 25rpx;
+}
+
+.margin-bottom-bj {
+	margin-bottom: 25rpx;
+}
+
+.margin-left-bj {
+	margin-left: 25rpx;
+}
+
+.margin-lr-bj {
+	margin-left: 25rpx;
+	margin-right: 25rpx;
+}
+
+.margin-tb-bj {
+	margin-top: 25rpx;
+	margin-bottom: 25rpx;
+}
+
+.padding-bj {
+	padding: 25rpx;
+}
+
+.padding-top-bj {
+	padding-top: 25rpx;
+}
+
+.padding-right-bj {
+	padding-right: 25rpx;
+}
+
+.padding-left-bj {
+	padding-left: 25rpx;
+}
+
+.padding-lr-bj {
+	padding-left: 25rpx;
+	padding-right: 25rpx;
+}
+
+.padding-tb-bj {
+	padding-top: 25rpx;
+	padding-bottom: 25rpx;
+}
+
+.padding-bottom-bj {
+	padding-bottom: 25rpx;
+}
+
+
+.padding-0 {
+	padding: 0;
+}
+
+.padding-xs {
+	padding: 10rpx;
+}
+
+.padding-sm {
+	padding: 20rpx;
+}
+
+.padding {
+	padding: 30rpx;
+}
+
+.padding-lg {
+	padding: 40rpx;
+}
+
+.padding-xl {
+	padding: 50rpx;
+}
+
+.padding-top-s {
+	padding-top: 4rpx;
+}
+
+.padding-top-xs {
+	padding-top: 10rpx;
+}
+
+.padding-top-sm {
+	padding-top: 20rpx;
+}
+
+.padding-top {
+	padding-top: 30rpx;
+}
+
+.padding-top-lg {
+	padding-top: 40rpx;
+}
+
+.padding-top-xl {
+	padding-top: 50rpx;
+}
+
+.padding-right-xs {
+	padding-right: 10rpx;
+}
+
+.padding-right-sm {
+	padding-right: 20rpx;
+}
+
+.padding-right {
+	padding-right: 30rpx;
+}
+
+.padding-right-lg {
+	padding-right: 40rpx;
+}
+
+.padding-right-xl {
+	padding-right: 50rpx;
+}
+
+.padding-bottom-xs {
+	padding-bottom: 10rpx;
+}
+
+.padding-bottom-sm {
+	padding-bottom: 20rpx;
+}
+
+.padding-bottom {
+	padding-bottom: 30rpx;
+}
+
+.padding-bottom-lg {
+	padding-bottom: 40rpx;
+}
+
+.padding-bottom-xl {
+	padding-bottom: 50rpx;
+}
+
+.padding-left-xs {
+	padding-left: 10rpx;
+}
+
+.padding-left-sm {
+	padding-left: 20rpx;
+}
+
+.padding-left {
+	padding-left: 30rpx;
+}
+
+.padding-left-lg {
+	padding-left: 40rpx;
+}
+
+.padding-left-xl {
+	padding-left: 50rpx;
+}
+
+.padding-lr-s {
+	padding-left: 4rpx;
+	padding-right: 4rpx;
+}
+
+.padding-lr-xs {
+	padding-left: 10rpx;
+	padding-right: 10rpx;
+}
+
+.padding-lr-sm {
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+}
+
+.padding-lr {
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+
+.padding-lr-lg {
+	padding-left: 40rpx;
+	padding-right: 40rpx;
+}
+
+.padding-lr-xl {
+	padding-left: 50rpx;
+	padding-right: 50rpx;
+}
+
+.padding-tb-s {
+	padding-top: 4rpx;
+	padding-bottom: 4rpx;
+}
+
+.padding-tb-xs {
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+}
+
+.padding-tb-sm {
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+}
+
+.padding-tb {
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+}
+
+.padding-tb-lg {
+	padding-top: 40rpx;
+	padding-bottom: 40rpx;
+}
+
+.padding-tb-xl {
+	padding-top: 50rpx;
+	padding-bottom: 50rpx;
+}
+
+/* 定位 */
+
+
+.position-relative {
+	position: relative;
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+.position-center{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.position-top-center {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.position-bottom-center {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+
+
+
+
+/* flex弹性布局*/
+.flex {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	/* #endif */
+}
+
+.flex-sub {
+	flex: 1;
+}
+
+.flex-twice {
+	flex: 2;
+}
+
+.flex-treble {
+	flex: 3;
+}
+
+.flex-direction {
+	flex-direction: row;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.align-start {
+	align-items: flex-start;
+}
+
+.align-end {
+	align-items: flex-end;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.align-stretch {
+	align-items: stretch;
+}
+
+
+.align-stretch {
+	align-items: stretch;
+}
+
+.justify-start {
+	justify-content: flex-start;
+}
+
+.justify-end {
+	justify-content: flex-end;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-around {
+	justify-content: space-around;
+}
+
+
+.overflow-hidden {
+	overflow: hidden;
+}

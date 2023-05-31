@@ -1,0 +1,304 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"tui-(.*)": "@/components/thorui/tui-$1/tui-$1.vue"
+		}
+	},
+
+	"pages": [{
+			"path": "pages/tabBar/home/home",
+			"style": {
+				"backgroundColor": "#f6f6f6",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tabBar/health/health",
+			"style": {
+				"navigationBarTitleText": "健康",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"app-plus": {
+					"titleNView": {
+
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"app-plus": {
+					"titleNView": {
+						
+					}
+				}
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		},{
+			"path": "uni_modules/uni-upgrade-center-app/pages/upgrade-popup",
+			"style": {
+				"disableScroll": true,
+				"app-plus": {
+					"backgroundColorTop": "transparent",
+					"background": "transparent",
+					"titleNView": false,
+					"scrollIndicator": false,
+					"popGesture": "none",
+					"animationType": "fade-in",
+					"animationDuration": 200
+				}
+			}
+		}
+	],
+	"subPackages": [
+		// 选择城市
+		{
+			"root": "pages/citys",
+			"pages": [
+				{
+					"path": "citys",
+					"style": {
+						"navigationBarTitleText": "选择城市",
+						"app-plus": {
+							"titleNView": {
+								
+							}
+						}
+					}
+				}
+			]
+		},
+		// 医院详情
+		{
+			"root": "pages/hospital_detail",
+			"pages": [
+				{
+					"path": "hospital_detail",
+					"style": {
+						"navigationBarTitleText": "医院详情",
+						"enablePullDownRefresh": false,
+						"app-plus": {
+							"titleNView": {
+								"type": "transparent"
+							}
+						}
+					}
+				
+				}
+			]
+		},
+		// 订单
+		{
+			"root": "pages/order_query",
+			"pages": [
+				{
+				 "path": "add_order",
+					"style": {
+						"navigationBarTitleText": "填写服务订单"
+					}
+				}, {
+					"path": "order_query",
+					"style": {
+						"navigationBarTitleText": "订单详情"
+					}
+				}
+			]
+		},
+		// 服务条款
+		{
+			"root": "pages/service_rule",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationBarTitleText": "服务条款",
+						"enablePullDownRefresh": false
+					}
+				
+				}, {
+					"path": "details",
+					"style": {
+						"navigationBarTitleText": "服务条款",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		// 服务对象管理
+		{
+			"root": "pages/sign_query",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationBarTitleText": "服务对象管理",
+						"enablePullDownRefresh": false
+					}
+				
+				}, {
+					"path": "sign_query",
+					"style": {
+						"navigationBarTitleText": "服务对象管理",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		// 优惠券相关页面
+		{
+			"root": "pages/coupon",
+			"pages": [
+				{
+					"path": "couponList",
+					"style": {
+						"navigationBarTitleText": "优惠中心",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "getCouponList",
+					"style": {
+						"navigationBarTitleText": "优惠券",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		// 陪诊师相关页面
+		{
+			"root": "pages/score_query",
+			"pages": [
+				{
+					"path": "score_query",
+					"style": {
+						"navigationBarTitleText": "陪诊师",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "score_query2",
+					"style": {
+						"navigationBarTitleText": "陪诊师中心",
+						"enablePullDownRefresh": false,
+						"app-plus": {
+							"titleNView": {
+								
+							}
+						}
+					}
+				}, {
+					"path": "money/withdraw",
+					"style": {
+						"navigationBarTitleText": "提现",
+						"app-plus": {
+							"titleNView": {
+								"type": "float",
+								"blurEffect": "light"
+							}
+						},
+						"backgroundColorTop": "#ffffff",
+						"backgroundColorBottom": "#ffffff"
+					}
+				},
+				{
+					"path": "money/witlist",
+					"style": {
+						"navigationBarTitleText": "提现日志",
+						"app-plus": {
+							"titleNView": {
+								"type": "float",
+								"blurEffect": "light"
+							}
+						},
+						"backgroundColorTop": "#ffffff",
+						"backgroundColorBottom": "#ffffff"
+					}
+				}, {
+					"path": "order/order",
+					"style": {
+						"navigationBarTitleText": "我的订单",
+						"app-plus": {
+							"titleNView": {
+								
+							}
+						}
+					}
+				}, {
+					"path": "order/order_query",
+					"style": {
+						"navigationBarTitleText": "订单详情",
+						"app-plus": {
+							"titleNView": {
+								
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTitleText": "优势陪诊",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#0070C0",
+		"backgroundColor": "#FFF",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6"
+	},
+
+	"tabBar": {
+		"color": "#ABABAB",
+		"selectedColor": "#0070C0",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "0px",
+		"list": [{
+				"pagePath": "pages/tabBar/home/home",
+				"iconPath": "static/match/tab_home_nor.png",
+				"selectedIconPath": "static/match/tab_home_sel.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabBar/health/health",
+				"iconPath": "static/match/tab_health_nor.png",
+				"selectedIconPath": "static/match/tab_health_sel.png",
+				"text": "健康"
+			},
+			{
+				"pagePath": "pages/tabBar/order/order",
+				"iconPath": "static/match/tab_order_nor.png",
+				"selectedIconPath": "static/match/tab_order_sel.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/tabBar/mine/mine",
+				"iconPath": "static/match/tab_mine_nor.png",
+				"selectedIconPath": "static/match/tab_mine_sel.png",
+				"text": "我的"
+			}
+		]
+	}
+}

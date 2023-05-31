@@ -1,0 +1,126 @@
+	.ump-container{
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: #F3F5FA;
+	}
+	.ump-headerimage{
+		display: flex;
+		flex:1;
+	}
+	.ump-container-top{
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		background-color:#F3F5FA;
+		border-radius: 20rpx;
+	}
+	.ump-layer{
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		flex-direction: column;
+		/*justify-content: center;
+		align-items: center;*/
+		margin-top: 88rpx;
+		padding: 0 38rpx;
+	}
+	.ump-navbar{
+		flex-direction: row;
+		justify-content:space-between;
+		align-items: center;
+	}
+	.ump-icon-36{
+		  width: 36rpx;
+		  height: 36rpx; 
+	}
+	.ump-circle-bg{
+		width: 60rpx;
+		height: 60rpx; 
+		border-radius:30rpx;
+		background-color: #fff;
+	}
+	.ump-text{
+		  font-size: 34rpx;
+		  color: #ffffff;
+	}
+    .uni-input-wrapper {
+        /* #ifndef APP-NVUE */
+        /* #endif */
+		/* height: 76rpx; */
+		/* margin-top: 20rpx; */
+
+		margin-bottom: 10rpx;
+        /* padding: 0 20rpx; */
+        flex-direction: row;
+        flex-wrap: nowrap;
+		align-items:center;
+		border-radius: 10rpx;
+        background-color: #FFFFFF;
+    }
+	.ump-icon-36{
+		  width: 36rpx;
+		  height: 36rpx; 
+	}
+	.uni-search-input {
+		height: 50rpx;
+		padding: 10rpx 10rpx;
+		line-height:50rpx;
+		font-size:28rpx;
+		flex: 1;
+	}
+	.ump-margin-wrap {
+		margin-top: 36rpx;
+		border-radius: 20rpx;
+	}
+	.nmp-swiper {
+		height: 400rpx;
+		border-radius: 20rpx;
+	}
+	.swiper-item {
+		display: flex;
+		flex:1;
+		border-radius: 20rpx;
+	}
+	.ump-panel-h{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.ump-panel-text{
+		flex: 1;
+		color: #040303;
+		font-size: 34rpx;
+		font-weight: bold;
+	}
+	.grid-item-box {
+		flex: 1;
+		position: relative;
+		/* #ifndef APP-NVUE */
+		display: flex;
+		/* #endif */
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 30rpx 0;
+	}
+	.image {
+		border-radius: 10rpx;
+		margin-top: 0rpx;
+		width: 95rpx;
+		height: 95rpx;
+	}
+	
+	.text {
+		width: 144rpx;
+		height: 40rpx;
+		margin-top: 10rpx;
+		color:  #0A0E1A;
+		font-size: 28rpx;
+		text-align: center;
+		text-overflow: clip;
+	}
